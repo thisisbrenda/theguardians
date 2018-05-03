@@ -1,0 +1,21 @@
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	padding: 0;
+}
+
+h1{
+	font-size: 3em;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	background-color: grey;
+}
+
+section{
+	display: -webkit-box;
+}
