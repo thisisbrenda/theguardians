@@ -1,13 +1,23 @@
 body{
 	font-family: 'Cabin', sans-serif;
-	font-size: 14px;
-	line-height: 1.6;
+	font-size: 18px;
+	line-height: 1.7;
 	padding: 0;
+	color: #0B3E5E;
+	margin: 0;
 }
 
 h1{
 	color: white;
-	font-size: 3.5em;
+	font-size: 3em;
+}
+
+h2{
+	font-size: 3em;
+}
+
+h3{
+	font-size: 1.5em;
 }
 
 .wrapper{
@@ -18,4 +28,10 @@ h1{
 
 section{
 	display: -webkit-box;
+}
+
+a{
+	text-decoration: none;
+	font-weight: 800;
+	color: #36CE82;
 }
