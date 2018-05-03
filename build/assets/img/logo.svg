@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>The Guardians</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <link rel="stylesheet" href="assets/css/main.min.css" /> -->
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500i,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/home.css" />
-
-</head>
-<body>
-  <section id="header">
-    <div class="wrapper">
-      <nav>
-        <ul class="main-nav">
-          <li><a href="#" class="logo">
-<!-- logo SVG code -->
-          <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>Page 1</title>
@@ -36,20 +17,4 @@
             </g>
         </g>
     </g>
-</svg></a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-        </ul>
-      </nav>
-      <article>
-        <h1>The Guardians</h1>
-        <p>An interactive webcomic that teaches children (9 years old and up) about climate change.</p>
-        <img class="gamescreen" src="assets/img/SafariMockup.png" alt="safari mockup"/>
-      </article>
-    </div>
-  </section>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/app.js"></script>
-</body>
-</html>
+</svg>
