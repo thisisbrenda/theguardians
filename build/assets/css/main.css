@@ -7,17 +7,42 @@ body{
 	margin: 0;
 }
 
+#header{
+	background: url(../img/gradientbg.jpg);
+	background-size: cover;
+	height: 800px;
+}
+
+#navbg{
+	background-color: #30EF90;
+	background-repeat: cover;
+}
+
+article{
+	width: 60%;
+	margin: 0 auto;
+}
+
 h1{
 	color: white;
 	font-size: 3em;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 h2{
 	font-size: 3em;
+	text-align: center;
+}
+
+h2.left{
+	text-align: left;
+	margin-bottom: 10px;
 }
 
 h3{
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .wrapper{
@@ -34,4 +59,92 @@ a{
 	text-decoration: none;
 	font-weight: 800;
 	color: #36CE82;
+}
+
+.main-nav{
+	display: flex;
+	margin-top: 12px;
+	padding-left: 0;
+}
+
+.main-nav li {
+	list-style: none;
+}
+
+.main-nav li:first-child{
+	margin-right: auto;
+}
+
+.main-nav li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 15px 30px;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+.spacer{
+	margin-bottom: 50px;
+}
+
+div.container{
+	position: relative;
+}
+
+img.leftimage{
+	position: relative;
+}
+
+img.icon{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+img.gamescreen{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+}
+
+img.centered{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 10%;
+}
+
+iframe.fullimage{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+p.headdesc{
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+p.floatingbubble{
+	z-index: 1;
+	background-color: white;
+	color: #0B3E5E;
+	width: 430px;
+	padding; 10px;
+	text-align: left;
+	position: absolute;
+	left: 600px;
+	top: 200px;
+	padding: 20px;
+}
+
+p.leftcolumn{
+	width: 550px;
+	margin-left: 100px;
+	clear: right;
+	margin-bottom: 50px;
 }

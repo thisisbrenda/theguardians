@@ -1,4 +1,4 @@
-#header{
+/*#header{
 	background: url(../img/gradientbg.jpg);
 	background-size: cover;
 	height: 800px;
@@ -76,7 +76,7 @@ img.centered{
     max-width: 10%;
 }
 
-.main-nav{
+/*.main-nav{
 	display: flex;
 	margin-top: 12px;
 	padding-left: 0;
@@ -97,17 +97,17 @@ img.centered{
 	padding: 15px 30px;
 	font-weight: bold;
 	font-size: 1.25em;
-}
+}*/
 
-.spacer{
+/*.spacer{
 	margin-bottom: 50px;
 }
 
 div.container{
 	position: relative;
-}
+}*/
 
 iframe.fullimage{
 	max-width: 100%;
 	margin: 0 auto;
-}
+}*/
