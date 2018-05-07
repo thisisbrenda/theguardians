@@ -16,6 +16,7 @@ body{
 #navbg{
 	background-color: #30EF90;
 	background-repeat: cover;
+	height: 80px;
 }
 
 article{
@@ -116,7 +117,12 @@ img.centered{
     max-width: 10%;
 }
 
-iframe.fullimage{
+img.floatleft{
+	float: left;
+	margin-right: 50px;
+}
+
+.fullimage{
 	max-width: 100%;
 	margin: 0 auto;
 }
@@ -142,9 +148,20 @@ p.floatingbubble{
 	padding: 20px;
 }
 
-p.leftcolumn{
+.leftcolumn{
 	width: 550px;
 	margin-left: 100px;
-	clear: right;
 	margin-bottom: 50px;
+}
+
+.rightpullout{
+	width: 450px;
+	margin-left: 400px;
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
 }
