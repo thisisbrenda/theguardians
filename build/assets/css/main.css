@@ -13,10 +13,10 @@ body{
 	height: 800px;
 }
 
-#navbg{
+.greenbar{
 	background-color: #30EF90;
 	background-repeat: cover;
-	height: 80px;
+	height: 70px;
 }
 
 article{
@@ -36,7 +36,7 @@ h2{
 	text-align: center;
 }
 
-h2.left{
+.left{
 	text-align: left;
 	margin-bottom: 10px;
 }
@@ -44,6 +44,10 @@ h2.left{
 h3{
 	font-size: 1.5em;
 	text-align: center;
+}
+
+h4{
+	margin: 0 0 20px 0;
 }
 
 .wrapper{
@@ -64,7 +68,7 @@ a{
 
 .main-nav{
 	display: flex;
-	margin-top: 12px;
+	margin-top: 8px;
 	padding-left: 0;
 }
 
@@ -80,9 +84,12 @@ a{
 	display: block;
 	text-decoration: none;
 	color: white;
-	padding: 15px 30px;
-	font-weight: bold;
-	font-size: 1.25em;
+	padding: 12px 25px;
+	font-size: 1em;
+}
+
+.main-nav li a.active{
+	color: #0B3E5E;
 }
 
 .spacer{
@@ -117,6 +124,10 @@ img.centered{
     max-width: 10%;
 }
 
+img.centerimage{
+	margin: 0 auto;
+}
+
 img.floatleft{
 	float: left;
 	margin-right: 50px;
@@ -148,6 +159,11 @@ p.floatingbubble{
 	padding: 20px;
 }
 
+p.leftalign{
+	width: 550px;
+	margin-bottom: 100px;
+}
+
 .leftcolumn{
 	width: 550px;
 	margin-left: 100px;
@@ -164,4 +180,8 @@ p.floatingbubble{
 ul{
 	list-style-type: none;
 	padding: 0;
+}
+
+.smalltext{
+	font-size: .75em;
 }
