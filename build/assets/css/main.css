@@ -66,6 +66,10 @@ a{
 	color: #36CE82;
 }
 
+a.behance{
+	color: white;
+}
+
 .main-nav{
 	display: flex;
 	margin-top: 8px;
