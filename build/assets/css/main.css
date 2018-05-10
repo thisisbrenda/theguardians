@@ -189,3 +189,57 @@ ul{
 .smalltext{
 	font-size: .75em;
 }
+
+/*js*/
+.sliderbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.slider-wrapper {
+  width: 1142px;
+  height: 728px;
+  overflow: hidden;
+}
+
+.inner-wrapper {
+  width: 500%;
+  height: 100%;
+  position: relative;
+/*  left: -100%;*/
+}
+
+.slide {
+  width: calc(100% / 5);
+  height: 100%;
+  float: left;
+  font-size: 100px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid black;
+  position: absolute;
+  cursor: pointer;
+}
+
+.prev {
+	margin-top: -350px;
+	border-left: 2px solid black;
+	left: 5%;
+	transform: rotate(-45deg);
+}
+
+.next {
+	margin-top: -350px;
+  border-right: 2px solid black;
+  right: 5%;
+  transform: rotate(45deg);
+}
